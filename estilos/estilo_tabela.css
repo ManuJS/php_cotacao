@@ -1,0 +1,219 @@
+h1{
+	color:#024f9d;
+}
+
+
+body {
+	font-family:verdana;
+	margin:0;
+	
+}
+
+a {
+	color:#1968b9;
+}
+
+a:hover {
+	opacity:0.80;
+}
+
+header {
+	width:680px;
+	color:#024f9d;
+	margin:auto;
+	font-size:10px;
+}
+table{
+	
+	background:#ece9e9;
+	background-image:-webkit-linear-gradient(#f8f6f6,#f1efef);
+	background-image:-moz-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-o-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-ms-linear-gradient(#f8f6f6,#ece9e9);
+	text-align:center;
+	width:80%;
+	alignment-adjust: central;
+	margin: 10px
+
+	
+}
+table td {
+	padding:10px;
+	border-bottom:1px solid white;
+	margin-top:5px!important;
+}
+
+
+
+div.margem3 {
+    
+    padding-left: 300px;
+    margin: 10px;
+}
+
+.table-topo {
+	font-weight:bold;
+	background:#014e9c;
+	background-image:-webkit-linear-gradient(#3586da,#014e9c);
+	background-image:-moz-linear-gradient(#3586da,#014e9c);
+	background-image:-o-linear-gradient(#3586da,#014e9c);
+	background-image:-ms-linear-gradient(#3586da,#014e9c);
+	color:white;
+	padding-right: 40px;
+}
+.total {
+	background:white;
+}
+
+}
+table input {
+	width:20px;
+	text-align:center;
+}
+table a {
+    color:#1968b9;
+}
+.deletar {
+	color:red;
+}
+.text-total {
+	color:#1968b9;
+	font-size:20px;
+}
+table button {
+	padding:5px;
+	border:1px solid silver;
+	cursor:pointer;
+	background-image:-webkit-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-moz-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-o-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-ms-linear-gradient(#f8f6f6,#ece9e9);
+}
+span {
+	color:gray;
+}
+
+#produtos {
+	width:500px;
+	padding:10px;
+	border-bottom:1px dotted silver;
+	margin:auto;
+
+	background:#ece9e9;
+	background-image:-webkit-linear-gradient(#fcfbfb,white);
+	background-image:-moz-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-o-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-ms-linear-gradient(#f8f6f6,#ece9e9);
+}
+.preco {
+	color:red;
+	display:block;
+	margin-bottom:2px;
+}
+
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('images/indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #0A246A;
+	color: white;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+label,
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}

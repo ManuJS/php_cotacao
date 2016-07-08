@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		
+
+		<?php include "/../elementos_tela/cabecalho.inc";
+		include 'conexao.php';
+		//chama o programa conexao.php
+		
+		?>
+
+		<title>Busca produtos</title>
+	</head>
+
+	<body>
+		<link rel="stylesheet" href="../estilos/estilo_tabela.css" type="text/css">
+		<header>
+			<div id = "titulo" align="center">
+				<h1>Lista de Produtos</h1>
+			</div>
+		</header>
+		<br/>
+
+		<div id = "campo_busca" align="center">
+			<form method="GET">
+				<label for="consulta">Buscar:</label>
+				<input type="search"  size="60px" id="consulta" name="consulta" maxlength="255" 
+				placeholder="Procure por produto ou fornecedor" autofocus required/>				
+				<input type="submit" value="OK" />
+			</form>
+		</div>
+
+		<div id = "consulta_fornec" align="left">
+			<form method="GET"></form>
+			<?php
+				include '/../busca/fornecedor.php';
+			?>
+			</br>
+			</br>
+
+		</div>
+		</br>
+		</br>

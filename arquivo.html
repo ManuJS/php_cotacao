@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>arquivo</title>
+</head>
+<body>
+arquivo html exemplo
+</body>
+</html>
+
+<?php 
+	
+	
+		$n = 0;
+						foreach ($_SESSION['carrinho'] as $id => $quantidade) {
+
+						$selecao = "SELECT * FROM produto WHERE cod_reg = '$id'";
+						//id contem o cod_reg do index para procurar o produto selecionado.
+						$query = mysql_query($selecao) or die(mysql_error());
+						$linha = mysql_fetch_array($query);
+						
+						
+						echo '<br/>', $n = $n+1, ' ', $nome = $linha['desc_prod'];
+						echo  ' ',$distribuidor = $linha['distribuidor'];
+						echo  ' ',$quantidade;
+						echo  ' ',$preco = $linha['prc_venda_unit'];
+						echo  ' ',$subTotal = $linha['prc_venda_unit'] * $quantidade;
+						
+						}			
+
+
+
+
+
+?>

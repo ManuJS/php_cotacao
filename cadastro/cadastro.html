@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<h1> Cadastro de usuarios do site </h1>
+<br />
+<form action = "verifica.php" method="post"> 
+<!--programa php que verifica se os campos estão vazios e aciona classe de acesso ao banco de dados-->
+
+<pre> Insira as informações para efetuar o cadastro desejado
+
+Nome:   <input type="text" size = "35" maxlength="256" name="nome" />
+
+E-mail: <input type="text" size = "35" maxlength="256" name="email" />
+
+Cidade: <input type="text" size = "35" maxlength="256" name="cidade" />
+
+Estado: <input type="text" size = "2" maxlength="256" name="estado" />
+
+Digite sua opniao no espaço abaixo
+
+<textarea rows="5" cols="42" name = "comentarios"></textarea>
+
+<input type="submit" value="Efetuar Cadastro" name = "enviar" />
+</pre>
+
+</form>
+</body>
+
+</html>
